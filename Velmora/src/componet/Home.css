@@ -17,6 +17,12 @@
   background-color: #0167B1;
   border: none;
   color: white;
+  font-size: 17px;
+  
+}
+
+.product-bar button span {
+  margin-top: 4px;
 }
 
 .product-bar a{
