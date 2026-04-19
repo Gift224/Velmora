@@ -100,12 +100,14 @@ function CategoryPage() {
               style={{ textDecoration: "none", color: "black" }}
             >
               <div className="product-card">
-                <img
-                  className="product-card-image"
-                  src={item.images[0]}
-                  alt={item.description}
-                  width="200"
-                />
+                <div className="boo">
+                  <img
+                    className="product-card-image"
+                    src={item.images[0]}
+                    alt={item.description}
+                    width="200"
+                  />
+                </div>
 
                 <div className="product-card-body">
                   <h5 className="product-one-line-text">{item.title}</h5>

@@ -21,12 +21,14 @@ function ApplianceList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={appliance.images[0]} alt={appliance.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{appliance.title}</h5>
-                            <p>₦ {appliance.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{appliance.oldprice}</p>
-                        </div>
+                            <div className="boo"> 
+                                <img className="card-image" src={appliance.images[0]} alt={appliance.description} width="200" />
+                            </div>
+                            <div className="card-body">
+                                <h5 className="one-line-text">{appliance.title}</h5>
+                                <p>₦ {appliance.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{appliance.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

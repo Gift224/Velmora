@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import { boosteddeals } from "./products"
-import "./BoostList.css"
+import "./Home.css"
 
 function BoostList() {
     return(
@@ -21,12 +21,15 @@ function BoostList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={boosteddeal.images[0]} alt={boosteddeal.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{boosteddeal.title}</h5>
-                            <p>₦ {boosteddeal.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{boosteddeal.oldprice}</p>
-                        </div>
+                            <div className="boo">
+                                <img className="card-image" src={boosteddeal.images[0]} alt={boosteddeal.description} width="200" />
+                            </div>
+                        
+                            <div className="card-body">
+                                <h5 className="one-line-text">{boosteddeal.title}</h5>
+                                <p>₦ {boosteddeal.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{boosteddeal.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

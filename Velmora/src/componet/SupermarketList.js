@@ -21,12 +21,14 @@ function SupermarketsList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={supermarket.images[0]} alt={supermarket.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{supermarket.title}</h5>
-                            <p>₦ {supermarket.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{supermarket.oldprice}</p>
-                        </div>
+                            <div className="boo"> 
+                                <img className="card-image" src={supermarket.images[0]} alt={supermarket.description} width="200" />
+                            </div>
+                            <div className="card-body">
+                                <h5 className="one-line-text">{supermarket.title}</h5>
+                                <p>₦ {supermarket.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{supermarket.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

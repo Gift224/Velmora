@@ -21,12 +21,14 @@ function PhoneList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={apple.images[0]} alt={apple.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{apple.title}</h5>
-                            <p>₦ {apple.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{apple.oldprice}</p>
-                        </div>
+                            <div className="boo"> 
+                                <img className="card-image" src={apple.images[0]} alt={apple.description} width="200" />
+                            </div>
+                            <div className="card-body">
+                                <h5 className="one-line-text">{apple.title}</h5>
+                                <p>₦ {apple.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{apple.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

@@ -21,12 +21,14 @@ function FashionList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={fashion.images[0]} alt={fashion.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{fashion.title}</h5>
-                            <p>₦ {fashion.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{fashion.oldprice}</p>
-                        </div>
+                            <div className="boo"> 
+                                <img className="card-image" src={fashion.images[0]} alt={fashion.description} width="200" />
+                            </div>
+                            <div className="card-body">
+                                <h5 className="one-line-text">{fashion.title}</h5>
+                                <p>₦ {fashion.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{fashion.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

@@ -1,6 +1,6 @@
 
 
-.product-bar{
+/*.product-bar{
   display: flex;
   justify-content: space-between;
   background-color: #0167B1;
@@ -53,10 +53,7 @@
     overflow: hidden;
 }
 
-.product-container-1{
-  overflow: hidden;
-  padding: 0px 10% 50px 10%;
-}
+
 
 .projects {
   display: flex;
@@ -65,7 +62,7 @@
   scroll-behavior: smooth;
 }
 
-/* hide vertical scroll */
+/* hide vertical scroll *
 .projects::-webkit-scrollbar {
   height: 5px;
 }
@@ -75,10 +72,10 @@
   border-radius: 10px;
 }
 
-/* Card */
+/* Card *
 .card {
-  min-width: 160px;   /* important */
-  flex: 0 0 auto;     /* prevents shrinking */
+  min-width: 160px;   /* important *
+  flex: 0 0 auto;     /* prevents shrinking *
   background: #fff;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -90,8 +87,8 @@
 }
 
 .card-image {
-  height: 185px;
-  width: 185px;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
 }
 
@@ -104,9 +101,9 @@
 }
 
 .one-line-text {
-  white-space: nowrap;        /* Prevent text from going to next line */
-  overflow: hidden;           /* Hide extra text */
-  text-overflow: ellipsis;    /* Show ... */
+  white-space: nowrap;        /* Prevent text from going to next line *
+  overflow: hidden;           /* Hide extra text *
+  text-overflow: ellipsis;    /* Show ... *
 }
 
 
@@ -117,3 +114,4 @@
   font-size: small;
 }
 
+*/

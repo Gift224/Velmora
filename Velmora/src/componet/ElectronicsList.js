@@ -21,12 +21,14 @@ function ElectronicsList() {
                         style={{ textDecoration: "none", color: "black" }}
                     >
                         <div className="card">
-                        <img className="card-image" src={electronic.images[0]} alt={electronic.description} width="200" />
-                        <div className="card-body">
-                            <h5 className="one-line-text">{electronic.title}</h5>
-                            <p>₦ {electronic.price.toLocaleString("en-NG")}</p>
-                            <p className="cabo-h5">{electronic.oldprice}</p>
-                        </div>
+                            <div className="boo"> 
+                                <img className="card-image" src={electronic.images[0]} alt={electronic.description} width="200" />
+                            </div>
+                            <div className="card-body">
+                                <h5 className="one-line-text">{electronic.title}</h5>
+                                <p>₦ {electronic.price.toLocaleString("en-NG")}</p>
+                                <p className="cabo-h5">{electronic.oldprice}</p>
+                            </div>
                         </div>
                     </Link>
                     ))}

@@ -241,16 +241,12 @@
 }
 
 /* Tablet */
-@media (max-width: 1350px) {
-  .Breadcrumb {
-    padding: 0% 5%;
-  }
-}
+
 
 /* Mobile */
 @media (max-width: 600px) {
   .Breadcrumb {
-    padding: 5%;
+    padding: 2% 5% 0%;
   }
 }
 

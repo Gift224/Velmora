@@ -14,11 +14,17 @@
 .product-bar button {
   display: flex;
   align-items: center;
-  background-color: #0167B1;
+  background-color: #0168b100;
   border: none;
   color: white;
   font-size: 17px;
   
+}
+
+.deal{
+    background-color: #0167B1;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .product-bar button span {
@@ -40,11 +46,6 @@
     justify-content: space-between;
     overflow-x: auto;
     width: 50%;
-}
-
-.card {
-    width: 180px;
-    padding: 10px;
 }
 
 .card p{
@@ -77,12 +78,13 @@
 
 /* Card */
 .card {
-  min-width: 160px;   /* important */
+  width: 140px;   /* important */
   flex: 0 0 auto;     /* prevents shrinking */
   background: #fff;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: transform 0.3s ease;
+  padding: 10px;
 }
 
 .card:hover {
@@ -90,8 +92,8 @@
 }
 
 .card-image {
-  height: 185px;
-  width: 185px;
+  height: 135px;
+  width: 135px;
   object-fit: cover;
 }
 
@@ -124,6 +126,30 @@
   border: none;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+.boo{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px){
+  .product-container-1{
+    padding: 0px 5% 50px 5%;
+  }
+}
+
+@media (max-width: 700px){
+    .card {
+      width: 120px;
+      padding: 5px;
+    }
+
+    .card-image {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+    }
 }
 
 @media (max-width: 330px){

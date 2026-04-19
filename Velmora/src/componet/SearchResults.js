@@ -28,9 +28,11 @@ export default function SearchResults() {
             <Link
               key={product.id}
               to={`/product/${product.category}/${product.id}`}
-              className="product-card"
+              className="product-card-search"
             >
-              <img src={product.images[0]} alt={product.title} />
+              <div className="boo">
+                <img src={product.images[0]} alt={product.title} />
+              </div>
               <h4>{product.title}</h4>
               <p>₦{product.price.toLocaleString("en-NG")}</p>
             </Link>
