@@ -1,6 +1,6 @@
 
 
-/*.product-bar{
+.product-bar{
   display: flex;
   justify-content: space-between;
   background-color: #0167B1;
@@ -11,18 +11,24 @@
   color: white;
 }
 
-.deal{
-    background-color: #0167B1;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 .product-bar button {
   display: flex;
   align-items: center;
   background-color: #0168b100;
   border: none;
   color: white;
+  font-size: 17px;
+  
+}
+
+.deal{
+  background-color: #0167B1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.product-bar button span {
+  margin-top: 4px;
 }
 
 .product-bar a{
@@ -42,27 +48,25 @@
     width: 50%;
 }
 
-.card {
-    width: 180px;
-    padding: 10px;
-}
-
-.card p{
+.boost-card p{
     display: block;
     height: 25px;
     overflow: hidden;
 }
 
-
-
-.projects {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
+.product-container-1{
+  overflow: hidden;
+  padding: 0px 10% 50px 10%;
 }
 
-/* hide vertical scroll *
+.boost-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17%, 1fr));
+  gap: 10px;
+  
+}
+
+/* hide vertical scroll 
 .projects::-webkit-scrollbar {
   height: 5px;
 }
@@ -70,48 +74,75 @@
 .projects::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 10px;
-}
+}*/
 
-/* Card *
-.card {
-  min-width: 160px;   /* important *
-  flex: 0 0 auto;     /* prevents shrinking *
+/* Card */
+.boost-card {
+     /* important */
+  flex: 0 0 auto;     /* prevents shrinking */
   background: #fff;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: transform 0.3s ease;
+  padding: 10px;
 }
 
-.card:hover {
+.boost-card:hover {
   transform: translateY(-5px);
 }
 
-.card-image {
-  height: 100px;
-  width: 100px;
+.boost-card-image {
+  height: 135px;
+  width: 135px;
   object-fit: cover;
 }
 
-.card-body {
+.boost-card-body {
   padding: 5px;
 }
 
-.card-body h5{
+.boost-card-body h5{
   font-weight: 600;
 }
 
-.one-line-text {
-  white-space: nowrap;        /* Prevent text from going to next line *
-  overflow: hidden;           /* Hide extra text *
-  text-overflow: ellipsis;    /* Show ... *
+.boost-one-line-text {
+  white-space: nowrap;        /* Prevent text from going to next line */
+  overflow: hidden;           /* Hide extra text */
+  text-overflow: ellipsis;    /* Show ... */
 }
 
 
-.cabo-h5{
+.boost-cabo-h5{
   text-decoration: line-through;
   font-weight: 400;
   color: #8a8989;
   font-size: small;
 }
 
-*/
+.boost-product-btn{
+  background-color: #FE6803;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.boost-boo{
+  display: flex;
+  justify-content: center;
+}
+
+.boost-small{
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .boost-big{
+    display: none;
+  }
+
+  .boost-small{
+    display: contents;
+  }
+}

@@ -961,15 +961,6 @@ export const boosteddeals = [
     oldprice: "₦ 595,980",
     images: [appli13, appli2, appli3]
   },
-  {
-    id: 16,
-    category: "boost",
-    title: "Oversize Joggers",
-    price: 11124,
-    description: 'Oversize Joggers',
-    oldprice: "₦ 14,917",
-    images: [fashionimg13, fashionimg2, fashionimg3]
-  },
 ]
 
 
