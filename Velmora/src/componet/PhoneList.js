@@ -10,7 +10,7 @@ function PhoneList() {
             <section>
                 <div className="product-container-1">
                 <div className="product-bar">
-                    <div><h4>Phones & Tablets deals</h4></div>
+                    <div><h4>Phones & Tablets Deals</h4></div>
                     <div><Link to="/category/apple"><button>See all <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span></button></Link></div>
                 </div>
                 <div className="projects">

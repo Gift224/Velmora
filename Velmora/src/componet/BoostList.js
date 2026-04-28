@@ -10,7 +10,7 @@ function BoostList() {
             <section className="boost-big">
                 <div className="product-container-1" style={{paddingTop: "50px",}}>
                     <div className="product-bar" style={{background: "#FE6803"}}>
-                        <div className="deal"><h4 >Boosted deals ⚡</h4></div>
+                        <div className="deal"><h4 >Boosted Deals ⚡</h4></div>
                         <div><Link to="/category/boost"><button>See all <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span></button></Link></div>
                     </div>
                     <div className="boost-projects">
@@ -39,7 +39,7 @@ function BoostList() {
             <section className="boost-small">
                 <div className="product-container-1" style={{paddingTop: "50px",}}>
                 <div className="product-bar" style={{background: "#FE6803"}}>
-                    <div className="deal"><h4 >Boosted deals ⚡</h4></div>
+                    <div className="deal"><h4 >Boosted Deals ⚡</h4></div>
                     <div><Link to="/category/boost"><button>See all <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></span></button></Link></div>
                 </div>
                 <div className="projects">
